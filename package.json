@@ -1,0 +1,36 @@
+{
+   "name": "support_ticket_agent",
+   "version": "1.0.0",
+   "type": "module",
+   "devDependencies": {
+      "@types/crypto-js": "^4.2.2",
+      "@types/express": "^4.17.21",
+      "typescript": "^7.0.2"
+   },
+   "dependencies": {
+      "@aws-sdk/client-bedrock": "^3.1118.0",
+      "@aws-sdk/client-bedrock-agentcore": "latest",
+      "@aws-sdk/client-s3": "^3.1120.0",
+      "@googleapis/docs": "^10.0.0",
+      "@modelcontextprotocol/sdk": "^1.30.0",
+      "@opentelemetry/api": "^1.9.1",
+      "@strands-agents/sdk": "^1.14.0",
+      "@types/node": "^26.3.0",
+      "aws-sdk": "^2.1693.0",
+      "crypto-js": "^4.2.0",
+      "docker": "^0.2.14",
+      "express": "^5.2.1",
+      "node": "^26.7.0",
+      "playwright": "^1.63.0",
+      "strands-agents": "^0.0.1",
+      "zod": "^4.4.3"
+   },
+   "scripts": {
+      "build": "tsc",
+      "start": "node dist/index.js",
+      "dev": "tsc && node dist/index.js"
+   },
+   "allowScripts": {
+      "node@26.7.0": true
+   }
+}

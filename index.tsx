@@ -30,8 +30,8 @@
   const iv = CryptoJS.enc.Utf8.parse("");
 
  
-  // var awsurl = "https://wsbyu45byb.execute-api.us-east-1.amazonaws.com/default/authsuptic"
-  var awsurl = "https://2d6fcanvsxi2u656q5r4xiinfe0azoqk.lambda-url.us-east-1.on.aws/"
+  // var awsurl = ""
+  var awsurl = ""
 
 
   const app = express()
